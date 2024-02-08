@@ -1,4 +1,4 @@
-from keyword_query.query import keyword_search
+from keyword_search.query import keyword_search
 from argparse import ArgumentParser
 import pandas as pd
 import sys

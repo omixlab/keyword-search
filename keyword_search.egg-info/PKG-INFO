@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: keyword-search
-Version: 0.0.1
+Version: 0.0.2
 Summary: A keyword search for CSV/Excel/Pandas
 Author: Frederico Schmitt Kremer
 Author-email: fred.s.kremer@gmail.com
@@ -16,7 +16,7 @@ columns.
 
 - Currently, only `.str.contains` queries are performed. 
 
-- Boolean operations (`and`, `or`, `not`) are mantained during compilation. 
+- Boolean operations (`and`, `or`, `and not`) are mantained during compilation, following Pandas sintax. 
 
 - All further work is done by the Pandas `DataFrame.query` method.
 

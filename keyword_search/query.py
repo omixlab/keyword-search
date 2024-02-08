@@ -40,11 +40,10 @@ def keyword_search(df, raw_query, return_query_expression=False, case_sensitive=
             term, 
             compiled_term
         )
-    #try:
-    if 2==2:
+    try:
         if return_query_expression:
             return df.query(compiled_query), compiled_query
         else:
             return df.query(compiled_query)
-    #except:
+    except:
         raise Exception('invalid query')

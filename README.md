@@ -7,7 +7,7 @@ columns.
 
 - Currently, only `.str.contains` queries are performed. 
 
-- Boolean operations (`and`, `or`, `not`) are mantained during compilation. 
+- Boolean operations (`and`, `or`, `and not`) are mantained during compilation, following Pandas sintax. 
 
 - All further work is done by the Pandas `DataFrame.query` method.
 
